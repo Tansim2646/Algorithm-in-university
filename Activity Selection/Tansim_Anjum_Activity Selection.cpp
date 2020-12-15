@@ -32,7 +32,7 @@ void Activity_selection(Activity arr[],int x)
     cout<<"Sorted Activity"<<endl;
     for(int i=0; i<x; i++)
     {
-    cout<<arr[i].Name<<" "<<arr[i].start_time<<" "<<arr[i].finish_time<<endl;
+        cout<<arr[i].Name<<" "<<arr[i].start_time<<" "<<arr[i].finish_time<<endl;
     }
     Activity newarray[x];
     int j=0;
@@ -46,6 +46,7 @@ void Activity_selection(Activity arr[],int x)
             newarray[count+1]=arr[i];
             j=i;
             count++;
+
 
         }
     }
